@@ -95,7 +95,7 @@ router.post('/forgotPassword', (req, res) => {
             }
         }
         else {
-            return res.status(500).json(err);0
+            return res.status(500).json(err);
         }
     })
 })
@@ -158,4 +158,5 @@ router.post('/changePassword', auth.authenticateToken, (req, res) => {
         }
     });
 })
+
 module.exports = router;
