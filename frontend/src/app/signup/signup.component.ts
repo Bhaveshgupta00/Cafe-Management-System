@@ -38,7 +38,7 @@ export class SignupComponent implements OnInit {
     var data = {
       name: formData.name,
       email: formData.email,
-      contactNumber: formData.contactNuber,
+      contactNumber: formData.contactNumber,
       password: formData.password
     }
     this.userService.signup(data).subscribe((response: any) => {
