@@ -32,7 +32,7 @@ export class SignupComponent implements OnInit {
     })
   }
 
-  handleSubmit() {
+  public handleSubmit() {
     this.ngxService.start();
     var formData = this.signupForm.value;
     var data = {
