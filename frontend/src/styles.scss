@@ -3,7 +3,7 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-  //responsibe table
+  //responsive table
   @media(max-width: 800px) {
     .responsive_table {
         overflow-x: auto !important;
